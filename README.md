@@ -1,3 +1,6 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
 
 
 # 🧠 Alzheimer’s Disease Detection using Transfer Learning
