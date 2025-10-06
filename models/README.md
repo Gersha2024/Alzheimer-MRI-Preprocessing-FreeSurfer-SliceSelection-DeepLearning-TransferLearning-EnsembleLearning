@@ -22,19 +22,19 @@ Model: MobileNetV2 only. No ensemble was used in this setting.
   - Loads preprocessed MRI slices (axial, coronal, sagittal).  
   - Applies transfer learning with three backbone models: MobileNetV2, VGG16, and ResNet50.  
   - Supports fine-tuning with task-specific hyperparameters.
-  📌 Link to training code → [`models/train_model.py`](Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/models/train_model.py)
+  📌 Link to training code → [`models/train_model.py`](train_model.py)
   - Saves trained models in `.h5` format.  
 
 - **`evaluate.py`** → Evaluation and testing pipeline.  
   - Uses **CrossEntropy loss**.  
   - Evaluation metrics: Accuracy, Precision, Recall, F1-score.
-  📌 Link to evaluation code → [`models/evaluate.py`](Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/models/evaluate.py)
+  📌 Link to evaluation code → [`evaluate.py)
 
 - **`ensemble.py`** → Ensemble learning.  
   - Combines predictions from three trained models using **majority voting**.  
   - Resolves ties with an alternative selection strategy.  
   - Provides final ensemble predictions for the AD vs MCI vs CN task.
-  📌 Link to ensemble code → [`models/ensemble.py`](Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/models/ensemble.py) 
+  📌 Link to ensemble code → [`models/ensemble.py`](ensemble.py) 
 
 ----
 
