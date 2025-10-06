@@ -1,9 +1,13 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
-
-
 # 🧠 Alzheimer’s Disease Detection using Transfer Learning
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.7.0-pink.svg)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0.2-yellow.svg)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.5.4.60-white.svg)
+![NumPy](https://img.shields.io/badge/NumPy-1.21.4-lightgrey.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Type](https://img.shields.io/badge/Type-Research-lightblue.svg)
 
 This project leverages transfer learning techniques to detect Alzheimer's disease (AD) and predict its progression using MRI scans. By applying advanced deep learning models on T1-weighted brain MRI data, the goal is to classify different stages of AD (AD, MCI, CN) and forecast the progression from Mild Cognitive Impairment (MCI) to Alzheimer's dementia (pMCI vs. sMCI), offering potential for early detection and intervention.
 
