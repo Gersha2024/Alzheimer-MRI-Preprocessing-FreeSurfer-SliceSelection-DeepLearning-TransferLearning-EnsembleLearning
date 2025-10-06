@@ -28,7 +28,7 @@ Model: MobileNetV2 only. No ensemble was used in this setting.
 - **`evaluate.py`** → Evaluation and testing pipeline.  
   - Uses **CrossEntropy loss**.  
   - Evaluation metrics: Accuracy, Precision, Recall, F1-score.
-  📌 Link to evaluation code → [`evaluate.py)
+  📌 Link to evaluation code → [`models/evaluate.py`](evaluate.py)
 
 - **`ensemble.py`** → Ensemble learning.  
   - Combines predictions from three trained models using **majority voting**.  
@@ -40,6 +40,6 @@ Model: MobileNetV2 only. No ensemble was used in this setting.
 
 ## Notes
 - Each model has been fine-tuned with different hyperparameters depending on the architecture and the MRI orientation.  
-- For detailed hyperparameters and training results, see the [`reports`](Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/reports/README.md) folder.  
-- This folder focuses on **implementation**, while all experimental results and visualizations are documented in [`reports`](Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/reports/README.md).  
+- For detailed hyperparameters and training results, see the [`reports`](/reports/README.md) folder.  
+- This folder focuses on **implementation**, while all experimental results and visualizations are documented in [`reports`](/reports/README.md).  
 
