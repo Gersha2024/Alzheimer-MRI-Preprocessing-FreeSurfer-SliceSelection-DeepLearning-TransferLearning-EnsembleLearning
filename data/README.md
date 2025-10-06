@@ -29,7 +29,7 @@ Images were originally in **DICOM format**, and the dataset contains **MRI scans
 ## To use the data:
 1. Download the MRI scans from [ADNI Data Access](http://adni.loni.usc.edu/data-samples/access-data/).
 2. Use the provided manifests to map the images to each stage.
-3. Run the preprocessing steps as described in [`preprocessing/`](preprocessing/).
+3. Run the preprocessing steps as described in [`preprocessing/`](/preprocessing/).
 
 **Note**: This folder only contains metadata and manifests. Raw MRI images must be accessed directly from ADNI.  
 For further details on the study, visit the [Salvatore et al. 2018 Longitudinal GitHub repository](https://github.com/christiansalvatore/Salvatore-200Longitudinal).
